@@ -1,0 +1,17 @@
+
+Declare and read the number of array elements.
+
+Declare and read the array size at runtime.
+
+Initialize two variables, max and second_max, to the smallest possible integer value.
+
+Loop through the array of numbers and compare each element to max and second_max as follows:
+
+a. If the current element is greater than max, update second_max to max and max to the current element.
+
+b. If the current element is between max and second_max, update second_max to the current element.
+
+c. Otherwise, if the current element is less than both max and second_max, ignore it.
+
+After the loop finishes, return the value of second_max. 
+Print the second largest number
